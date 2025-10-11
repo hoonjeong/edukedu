@@ -66,7 +66,7 @@ const Recommendation = () => {
                   <span className="font-bold text-gray-900">대학원 전공의 초기 기수는 매우 의미가 있습니다.</span><br />
                   많은 투자와 관심을 집중하여 이분들을 성공시키고자 하는 의지가 있는 시기이며,
                   교수진은 이들이 교육산업의 지형을 바꿀 수 있는 선구자가 되리라 기대하고 있습니다.
-                  교육산업 전공에서 석사 과정을 공부한다면, 시간이 지난 후
+                  교육산업 전공에서 석사 과정을 공부한다면, 시간이 지난 후&nbsp;
                   <span className="font-bold text-primary">가장 잘한 선택 중 하나였다고 생각하시게 될 것</span>입니다.
                 </p>
 
