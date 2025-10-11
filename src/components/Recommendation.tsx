@@ -74,7 +74,7 @@ const Recommendation = () => {
                   이번에 교육산업 전공에 진학하여 공부하신다면, <span className="font-bold text-gray-900">석사 과정부터
                   박사 과정까지 빠르게 진행할 수 있는 체계적인 시스템</span>이 갖춰져 있어
                   전문가로서 활동하고, 더 나아가 교수로서 활동할 수 있는 미래를 준비할 수 있습니다.
-                  또한 함께 공부하는 동료들이 서로의 인맥이 되어 교육 분야에서 큰 힘을 발휘할 수 있는
+                  또한 함께 공부하는 동료들이 서로의 인맥이 되어 교육 분야에서 큰 힘을 발휘할 수 있는&nbsp;
                   <span className="font-bold text-secondary">네트워크를 구축</span>할 수 있습니다.
                   이 전공은 <span className="font-bold text-gray-900">자신의 교육적 삶의 인프라를 만들고 싶은 분들</span>에게
                   가장 적합한 선택이 될 것입니다.
