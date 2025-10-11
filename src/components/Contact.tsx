@@ -65,7 +65,7 @@ const Contact = () => {
               KGU
             </p>
             <p className="text-lg md:text-xl text-gray-700 mt-2">
-              경기대학교 교육산업학과
+              경기대학교 교육대학원 교육산업학과
             </p>
           </div>
         </motion.div>
@@ -80,7 +80,7 @@ const Contact = () => {
         className="mt-16 pt-8 border-t border-gray-300 text-center"
       >
         <p className="text-sm md:text-base text-gray-600">
-          © 2025 경기대학교 교육산업학과. All rights reserved.
+          © 2025 경기대학교 교육대학원 교육산업학과. All rights reserved.
         </p>
       </motion.footer>
     </section>
