@@ -45,9 +45,11 @@ const Navigation = () => {
             smooth={true}
             offset={-80}
             duration={500}
-            className="text-2xl md:text-3xl font-bold text-primary cursor-pointer"
+            className="text-2xl md:text-3xl font-bold cursor-pointer"
           >
-            EDUKEDU
+            <span className="text-cyan-500">EDU</span>
+            <span className="text-pink-600">K</span>
+            <span className="text-cyan-500">EDU</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -60,8 +62,8 @@ const Navigation = () => {
                 smooth={true}
                 offset={-80}
                 duration={500}
-                className="text-gray-700 hover:text-primary font-medium cursor-pointer transition-colors duration-200"
-                activeClass="text-primary"
+                className="text-black hover:text-cyan-500 cursor-pointer transition-colors duration-200"
+                activeClass="font-bold"
               >
                 {item.name}
               </Link>
@@ -76,15 +78,15 @@ const Navigation = () => {
           >
             <motion.span
               animate={isMobileMenuOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
-              className="block w-6 h-0.5 bg-gray-700"
+              className="block w-6 h-0.5 bg-black"
             />
             <motion.span
               animate={isMobileMenuOpen ? { opacity: 0 } : { opacity: 1 }}
-              className="block w-6 h-0.5 bg-gray-700"
+              className="block w-6 h-0.5 bg-black"
             />
             <motion.span
               animate={isMobileMenuOpen ? { rotate: -45, y: -8 } : { rotate: 0, y: 0 }}
-              className="block w-6 h-0.5 bg-gray-700"
+              className="block w-6 h-0.5 bg-black"
             />
           </button>
         </div>
@@ -109,8 +111,8 @@ const Navigation = () => {
                   smooth={true}
                   offset={-80}
                   duration={500}
-                  className="block text-gray-700 hover:text-primary font-medium cursor-pointer transition-colors duration-200 py-2"
-                  activeClass="text-primary"
+                  className="block text-black hover:text-cyan-500 cursor-pointer transition-colors duration-200 py-2"
+                  activeClass="font-bold"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
