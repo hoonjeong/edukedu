@@ -11,6 +11,8 @@ const Navigation = () => {
     { name: '미션', to: 'mission' },
     { name: '비전', to: 'vision' },
     { name: '졸업후 진로', to: 'career' },
+    { name: '소개영상', to: 'videos' },
+    { name: '추천사', to: 'recommendation' },
     { name: '수업스케줄', to: 'schedule' },
     { name: '문의', to: 'contact' },
   ]
