@@ -40,10 +40,10 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link
-            to="intro"
+            to="hero"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={0}
             duration={500}
             className="text-2xl md:text-3xl font-bold cursor-pointer"
           >
