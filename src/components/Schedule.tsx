@@ -112,7 +112,7 @@ const Schedule = () => {
           {/* Note */}
           <div className="bg-blue-50 border-t border-blue-100 p-4">
             <p className="text-sm md:text-base text-blue-800 text-center">
-              ※ 개인별 수강신청에 따라, 일부 교과목은 수·금요일에 수업 진행
+              ※ 수업 스케줄은 수강생 스케줄에 따라 협의하에 오전으로 변경될 수 있음
             </p>
           </div>
         </motion.div>

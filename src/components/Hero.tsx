@@ -55,8 +55,21 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: isLoading ? 0 : 1, y: isLoading ? 30 : 0 }}
+          transition={{ duration: 0.8, delay: 0.9, ease: 'easeOut' }}
+        >
+          <p className="text-base md:text-xl text-white mb-40 font-normal">
+            이 홈페이지는 교육산업학과 1기 학생들이 수업시간에 배운 내용을 바탕으로<br />AI를 활용하여 제작한 홈페이지 입니다.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: isLoading ? 0 : 1, y: isLoading ? 30 : 0 }}
           transition={{ duration: 0.8, delay: 1, ease: 'easeOut' }}
         >
+          <p className="text-2xl md:text-4xl lg:text-5xl font-semibold text-white mb-4 drop-shadow-lg">
+            경기대학교 교육대학원
+          </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-lg">
             교육산업학과
           </h1>

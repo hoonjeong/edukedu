@@ -137,7 +137,8 @@ const Recommendation = () => {
                     <div className="inline-block px-4 py-1 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full mb-2">
                       <p className="text-sm font-semibold text-primary">추천인</p>
                     </div>
-                    <p className="text-base md:text-lg font-bold text-gray-800">ⓒ자유자재교육 대표</p>
+                    <p className="text-base md:text-lg font-bold text-gray-800">박중희 교수님</p>
+                    <p className="text-sm md:text-base text-gray-700">ⓒ자유자재교육 대표</p>
                     <p className="text-sm md:text-base text-gray-600">인지과학 박사</p>
                   </div>
                 </motion.div>
