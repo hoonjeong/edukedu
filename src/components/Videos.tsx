@@ -4,13 +4,8 @@ const Videos = () => {
   const videos = [
     {
       id: 1,
-      title: '최항석 교수님 소개영상',
-      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    },
-    {
-      id: 2,
-      title: '박중희 교수님 소개영상',
-      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      title: '박중희 교수 소개영상',
+      url: 'https://www.youtube.com/embed/LxEMxzbzKbs',
     },
   ]
 
@@ -32,7 +27,8 @@ const Videos = () => {
         </motion.div>
 
         {/* Videos Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="flex justify-center">
+          <div className="w-full max-w-4xl">
           {videos.map((video, index) => (
             <motion.div
               key={video.id}
@@ -63,6 +59,7 @@ const Videos = () => {
               </div>
             </motion.div>
           ))}
+          </div>
         </div>
       </div>
     </section>
