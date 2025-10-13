@@ -21,12 +21,146 @@ const Recommendation = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
         </motion.div>
 
-        {/* Content Card */}
+        {/* 최항석 교수님 추천사 */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
+          className="relative bg-white rounded-3xl shadow-2xl overflow-hidden mb-8"
+        >
+          {/* Decorative gradient overlay */}
+          <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-primary/5 to-transparent pointer-events-none hidden lg:block"></div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
+            {/* Left: Text Content (65%) */}
+            <div className="lg:col-span-8 p-8 md:p-12 lg:p-16 relative z-10">
+              <div className="space-y-6 text-gray-700 leading-relaxed text-base md:text-lg">
+                <p className="text-xl md:text-2xl font-bold text-primary mb-6">
+                  We Cordially<br />
+                  <span className="text-secondary text-3xl md:text-4xl">INVITE YOU</span>
+                </p>
+
+                <p>
+                  경기대학교 교육대학원 교육산업전공의 주임교수를 맡고 있는 최항석입니다.<br />
+                  저는 1989년부터 경기대학교 교직과부에서<br />
+                  학생들과 배움에 동행하여 연구하고 있습니다.
+                </p>
+
+                <p>
+                  재가 경기대학교 교육대학원에 교육산업전공을 개설한 이유는<br />
+                  교육 당사자인 교육졸업 발치된 교육산업이 미래 우리 교육에<br />
+                  새로운 생명을 불어넣을 출제에이자 기폐가 될 것이기 때문입니다.
+                </p>
+
+                <p>
+                  교육산업이란 좁아에서 이르느에 이르기까지<br />
+                  모든 이들에게 필요한 배움의 자원을 제공하는 평생교육산업을 의미합니다.<br />
+                  교육산업은 학령산업부터 교육컨설산업,<br />
+                  교육인프라(Edutainment)학습산업, 온-오프 학습산업 등<br />
+                  배움을 위한 모든 프로그램과 자원을 지원하는 비즈니스이 교육을 의미합니다.
+                </p>
+
+                <p>
+                  그 누구든 이 시회에서 배우고 살면, 배우고 싶은 그것을 배울 수 있도록<br />
+                  디깊만 서비스를 제공하는 것이 교육산업의 의의(意義)입니다.
+                </p>
+
+                <p>
+                  교육산업의 교육적 철학은 니무나 실용적이며 미제자형적입니다.<br />
+                  지금과 같은 학교교육이나 학습방법이 지궈발형적으로 아기하는<br />
+                  교육 문제를 해결할 기폐적이 교육산업에 있습니다.<br />
+                  교육산업은 교육을 민주컵율 인간컵율 자유적이고도 진정성 있는<br />
+                  배움의 미래가 교육산업에 있습니다. 특히 학령산업은 학교교육이<br />
+                  동반시킬 배움의 책빚과 몸짚 권리를 실현하게 줄 수 있는<br />
+                  거번의 책무인 교육산업니다. 경기대학교 교육대학원 교육산업전공은<br />
+                  영리를 추구하는 산업인(人)을 넘어, 교육이 무엇인지,<br />
+                  배움이 될 필요한지, 이렇게 그것을 실현할 수 있는지를 먼 구하고<br />
+                  김동(感動)하는 교육철학을 지난 교육 전문인을 육상하여<br />
+                  미래 우리의 교육 현장에서 활동하실 분들을 찾고 있습니다.<br />
+                  즉, 전문 비즈니스인(人)을 넘어, 교육이 미래를 책입질<br />
+                  교육전문가를의 인물을 추도할 배육전문인(人)을<br />
+                  양성하고자 합니다.
+                </p>
+
+                <p>
+                  2026년도 경기대학교 교육대학원 교육산업전공에<br />
+                  여러분들을 초대합니다.<br />
+                  부디 미래 교육 전문가이자 교육산업의 탑구와 비전을<br />
+                  위한 연구자가 되기 위한 활륜에 동행해 주시기 바랍니다.
+                </p>
+              </div>
+            </div>
+
+            {/* Right: Professor Image (35%) */}
+            <motion.div
+              className="lg:col-span-4 relative flex items-center justify-center p-8 md:p-12"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+            >
+              {/* Background decoration */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"></div>
+
+              <div className="relative z-10 w-full max-w-sm">
+                {/* Decorative circles */}
+                <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-2xl"></div>
+                <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-secondary/20 rounded-full blur-2xl"></div>
+
+                {/* Professor Photo with gradient border */}
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl transform rotate-3"></div>
+                  <div className="relative bg-white p-2 rounded-2xl shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300">
+                    <img
+                      src="/images/최항석교수님.png"
+                      alt="최항석 교수님"
+                      className="w-full h-auto rounded-xl object-cover"
+                      onError={(e) => {
+                        // Fallback to placeholder if image not found
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling?.classList.remove('hidden');
+                      }}
+                    />
+                    {/* Fallback Placeholder */}
+                    <div className="hidden w-full aspect-square rounded-xl bg-gray-100 flex items-center justify-center">
+                      <svg
+                        className="w-32 h-32 text-gray-400"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Professor Info Card */}
+                <motion.div
+                  className="mt-6 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-6 border border-gray-100"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                >
+                  <div className="text-center space-y-2">
+                    <div className="inline-block px-4 py-1 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full mb-2">
+                      <p className="text-sm font-semibold text-primary">추천인</p>
+                    </div>
+                    <p className="text-base md:text-lg font-bold text-gray-800">최항석 주임교수</p>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* 박중희 교수님 추천사 */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="relative bg-white rounded-3xl shadow-2xl overflow-hidden"
         >
           {/* Decorative gradient overlay */}
@@ -103,8 +237,8 @@ const Recommendation = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl transform rotate-3"></div>
                   <div className="relative bg-white p-2 rounded-2xl shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300">
                     <img
-                      src="/images/1.png"
-                      alt="교수님"
+                      src="/images/박중희교수님.png"
+                      alt="박중희 교수님"
                       className="w-full h-auto rounded-xl object-cover"
                       onError={(e) => {
                         // Fallback to placeholder if image not found
@@ -137,7 +271,7 @@ const Recommendation = () => {
                     <div className="inline-block px-4 py-1 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full mb-2">
                       <p className="text-sm font-semibold text-primary">추천인</p>
                     </div>
-                    <p className="text-base md:text-lg font-bold text-gray-800">박중희 교수님</p>
+                    <p className="text-base md:text-lg font-bold text-gray-800">박중희 교수</p>
                     <p className="text-sm md:text-base text-gray-700">ⓒ자유자재교육 대표</p>
                     <p className="text-sm md:text-base text-gray-600">인지과학 박사</p>
                   </div>
