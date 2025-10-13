@@ -73,7 +73,7 @@ const Vision = () => {
 
             <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl p-6 md:p-8">
               <p className="text-lg md:text-xl text-gray-800 leading-relaxed font-medium">
-                경기대학교 교육산업 전공과정은 이러한 시대적 요구를 기반으로<br className="hidden md:block" />
+                경기대학교 교육산업 전공과정은 이러한 시대적 요구를 기반으로&nbsp;<br className="hidden md:block" />
                 <span className="text-primary font-bold">교육산업 전문가</span>를 양성합니다.
               </p>
             </div>

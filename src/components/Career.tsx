@@ -82,7 +82,7 @@ const Career = () => {
           className="text-center mb-16"
         >
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-            교육산업을 전공한 후에는 교육경영 컨설턴트, 교육정보공학 등 다양한 분야에서<br className="hidden md:block" />
+            교육산업을 전공한 후에는 교육경영 컨설턴트, 교육정보공학 등 다양한 분야에서 <br className="hidden md:block" />
             전문가로 활동할 수 있으며, 박사과정으로 진학할 수 있습니다.
           </p>
         </motion.div>
