@@ -32,7 +32,7 @@ const Mission = () => {
               "나 자신에게 무엇을 해주어야 할까?"
             </h3>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              결국 필요한 것은 누구나 인정할 수 있는<br className="hidden md:block" />
+              결국 필요한 것은 누구나 인정할 수 있는<br />
               나의 성장에 대한 명확한 증거입니다.
             </p>
           </motion.div>
@@ -52,12 +52,12 @@ const Mission = () => {
 
             <blockquote className="relative z-10 text-center">
               <p className="text-xl md:text-2xl lg:text-3xl font-medium text-gray-800 leading-relaxed italic">
-                학원이 성공하고 원장이 성장하지 못하면 <br className="hidden md:block" />
+                학원이 성공하고 원장이 성장하지 못하면<br />
                 학원은 결국 사라지지만,
                 <br />
                 <span className="text-secondary font-bold">
-                  원장이 성공하면 학원이 어려움에 처하더라도 <br className="hidden md:block" />
-                  다시 일어설 수 있다
+                  원장이 성공하면 학원이 어려움에<br />
+                  처하더라도 다시 일어설 수 있다
                 </span>
               </p>
             </blockquote>

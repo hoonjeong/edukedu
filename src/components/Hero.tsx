@@ -58,7 +58,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.9, ease: 'easeOut' }}
         >
           <p className="text-base md:text-xl text-white mb-40 font-normal">
-            이 홈페이지는 교육산업학과 1기 학생들이 수업시간에 배운 내용을 바탕으로<br />AI를 활용하여 제작한 홈페이지 입니다.
+            이 홈페이지는 교육산업학과 1기 학생들이<br />수업시간에 배운 내용을 바탕으로<br />AI를 활용하여 제작한 홈페이지 입니다.
           </p>
         </motion.div>
 
