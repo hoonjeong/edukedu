@@ -7,6 +7,11 @@ const Videos = () => {
       title: '박중희 교수 소개영상',
       url: 'https://www.youtube.com/embed/LxEMxzbzKbs',
     },
+    {
+      id: 2,
+      title: '교육산업전공 1기 리뷰',
+      url: 'https://www.youtube.com/embed/_bQadnB59nI',
+    },
   ]
 
   return (
