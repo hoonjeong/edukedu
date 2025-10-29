@@ -4,11 +4,16 @@ const Videos = () => {
   const videos = [
     {
       id: 1,
+      title: '최항석 주임교수 소개영상',
+      url: 'https://www.youtube.com/embed/hH6yP8S6coc',
+    },
+    {
+      id: 2,
       title: '박중희 교수 소개영상',
       url: 'https://www.youtube.com/embed/LxEMxzbzKbs',
     },
     {
-      id: 2,
+      id: 3,
       title: '교육산업전공 1기 리뷰',
       url: 'https://www.youtube.com/embed/_bQadnB59nI',
     },
