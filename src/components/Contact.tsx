@@ -44,16 +44,33 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
-              입학처
-            </h3>
-            <a
-              href="tel:031-249-9114"
-              className="block text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:scale-105 transition-transform duration-300"
-            >
-              031-249-9114
-            </a>
+          <div className="space-y-10">
+            <div className="grid md:grid-cols-2 gap-10 md:gap-8">
+              <div className="space-y-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  입학처
+                </h3>
+                <a
+                  href="tel:031-249-9114"
+                  className="block text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:scale-105 transition-transform duration-300"
+                >
+                  031-249-9114
+                </a>
+              </div>
+
+              <div className="space-y-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  박중희 교수
+                </h3>
+                <a
+                  href="tel:010-8800-9369"
+                  className="block text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:scale-105 transition-transform duration-300"
+                >
+                  010-8800-9369
+                </a>
+              </div>
+            </div>
+
             <p className="text-lg md:text-xl text-gray-600">
               궁금하신 사항은 언제든지 문의해주세요
             </p>
