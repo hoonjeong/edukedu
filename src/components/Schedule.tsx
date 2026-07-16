@@ -58,9 +58,9 @@ const Schedule = () => {
                   <td className="py-4 px-6 font-semibold text-gray-800">화·목</td>
                   <td className="py-4 px-6 text-gray-700">1·2교시</td>
                   <td className="py-4 px-6 text-gray-700">17:50 - 19:25</td>
-                  <td className="py-4 px-6 text-gray-700">선별·교선·선수과목</td>
+                  <td className="py-4 px-6 text-gray-700">전필·교선·선수과목</td>
                   <td className="py-4 px-6 text-gray-700">
-                    실당교육전공은 2학점<br />
+                    상담교육전공은 2학점<br />
                     (2·3교시 또는 4·5교시) 수업 운영
                   </td>
                 </tr>
@@ -89,8 +89,8 @@ const Schedule = () => {
               </div>
               <div className="space-y-2 text-sm">
                 <p><span className="font-semibold text-gray-700">시간:</span> 17:50 - 19:25</p>
-                <p><span className="font-semibold text-gray-700">대상:</span> 선별·교선·선수과목</p>
-                <p><span className="font-semibold text-gray-700">비고:</span> 실당교육전공은 2학점 (2·3교시 또는 4·5교시) 수업 운영</p>
+                <p><span className="font-semibold text-gray-700">대상:</span> 전필·교선·선수과목</p>
+                <p><span className="font-semibold text-gray-700">비고:</span> 상담교육전공은 2학점 (2·3교시 또는 4·5교시) 수업 운영</p>
               </div>
             </div>
 

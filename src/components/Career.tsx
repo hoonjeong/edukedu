@@ -68,7 +68,7 @@ const Career = () => {
             Career
           </h2>
           <p className="text-xl md:text-2xl text-primary font-semibold mb-6">
-            교육산업 & 교육서비스분야 전문가 활동
+            교육산업 & 교육서비스 분야 전문가 활동
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
         </motion.div>

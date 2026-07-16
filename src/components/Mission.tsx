@@ -52,7 +52,7 @@ const Mission = () => {
 
             <blockquote className="relative z-10 text-center">
               <p className="text-xl md:text-2xl lg:text-3xl font-medium text-gray-800 leading-relaxed italic">
-                학원이 성공하고 원장이 성장하지 못하면<br />
+                학원이 성공해도 원장이 성장하지 못하면<br />
                 학원은 결국 사라지지만,
                 <br />
                 <span className="text-secondary font-bold">
